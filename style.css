@@ -72,7 +72,8 @@ html{
     margin-top: 15px;
 }
 #footer {
-    position: fixed;
+    position: relative;
+    margin-top: -55px;
     left: 0;
     bottom: 0;
     padding: 10px;
