@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GradientPicker</title>
+    <link rel="shortcut icon" href="/Images/icon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header"><h1>Gradient Picker</h1></div>
+    <div id ="mainBlock">
+        <div id="colorIndicator" class="colorIndicator"></div>
+
+        <form id="colorsForm" class="form">
+            <div id="first_row">
+                <label for="hex_start"><b>Hex - start</b></label>
+                <label for="hex_end"><b>Hex - end</b></label>
+            </div>
+            <div id="second_row">
+                <input type="text" id="hex_start" class="input_normal" value="#FF0000" maxlength="7">
+                <input type="text" id="hex_end" class="input_normal" value="#8000FF" maxlength="7">
+            </div>
+            <div id="third_row">
+                <label for="r_start"><b>RGB - start</b></label>
+                <label for="r_end"><b>RGB - end</b></label>
+            </div>
+            <div id="fourth_row">
+                <input type="number" id="r_start" class="input_small" min="0" max="255" value="255">
+                <input type="number" id="g_start" class="input_small" min="0" max="255" value="0">
+                <input type="number" id="b_start" class="input_small" min="0" max="255" value="0">
+                <input type="number" id="r_end" class="input_small" min="0" max="255" value="128">
+                <input type="number" id="g_end" class="input_small" min="0" max="255" value="0">
+                <input type="number" id="b_end" class="input_small" min="0" max="255" value="255">
+
+            </div>
+            <div id="fifth_row">
+                <label for="h_start"><b>HSV - start</b></label>
+                <label for="h_end"><b>HSV - end</b></label>
+            </div>
+            <div id="sixth_row">
+                <input type="number" id="h_start" class="input_small" min="0" max="360" value="0">
+                <input type="number" id="s_start" class="input_small" min="0" max="100" value="100">
+                <input type="number" id="v_start" class="input_small" min="0" max="100" value="100">
+                <input type="number" id="h_end" class="input_small" min="0" max="360" value="270">
+                <input type="number" id="s_end" class="input_small" min="0" max="100" value="100">
+                <input type="number" id="v_end" class="input_small" min="0" max="100" value="100">
+            </div>
+        </form>
+    </div>
+    <div id = "footer">CopyRight &copy  @Andrey12781</div>
+
+    <script src="scrypt.js"></script>
+</body>
+</html>
